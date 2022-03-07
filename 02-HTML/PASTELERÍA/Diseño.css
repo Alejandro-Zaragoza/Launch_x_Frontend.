@@ -1,0 +1,113 @@
+body{background-color: rgb(248, 141, 173);}
+
+h1{ font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    background-color: rgb(131, 144, 250);
+    position:relative;
+    font-size: 50px;}
+
+h1::after,h1::before{
+    content:'';
+    position:absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    top:0.6em;}
+    
+h1::before{left: 20em;}
+
+h1::after{right: 20em;}
+
+p{  display:inline;
+    margin: 1.2cm;
+    font-size: 23px;
+    font-family: 'Fira Sans', sans-serif;}
+
+.principal,.tablas{
+    background-color: rgb(212, 242, 219);
+    font-family: 'Fira Sans', sans-serif;}
+
+.secundario{
+    width: 1333px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;}
+
+
+dl{ font-weight: bolder;
+    display:inline-block;
+    margin: 2.6cm;}
+
+dt{font-size: 30px;}
+
+dd{font-size: 20px;}
+
+h2{font-size: 40px;}
+
+table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;}
+
+.ti{
+    background-color: black;
+    color: white;}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+caption,h2{font-family: 'Dancing Script', cursive;}
+
+.btn{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display: inline;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(0, 141, 235);
+    background-color: rgb(212, 242, 219);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 100px auto;
+    transition: all .25s;
+    z-index: 1;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgb(23,228,243), rgb(0, 141, 235) );
+    transition: all .25s;
+    z-index: -1;
+}
+
+.btn:hover{
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover::before{
+    height: 100%;
+}
+
+form{
+    text-align: center;
+}

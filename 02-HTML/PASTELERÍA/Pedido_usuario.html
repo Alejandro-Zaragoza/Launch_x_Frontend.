@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Diseño.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto&display=swap" rel="stylesheet">
+    <title>Pedido</title>
+</head>
+<body>
+
+    <div align="center">
+        <h1>Pastelería Delicias </h1>
+        <img src="./img/LOGO.png" width="300px">
+    </div>
+
+<form>
+    <section class="tablas">
+
+        <h2 align="center">Realiza tu pedido...</h2>
+        <h3>Ingresa tus datos: </h3>
+
+    <label for="name">Nombre completo: </label><br>
+    <input type="text" id="name" name="Nombre completo"><br><br>
+
+    <label for="direccion">Direccion: </label><br>
+    <input type="text" id="direccion" name="direccion"><br><br>
+
+    <label for="correo">Correo electrónico: </label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="tel">Número de teléfono: </label><br>
+    <input type="tel" id="tel" name="tel" maxlength="10" minlength="1"><br><br>
+
+    <label for="pastel">Descripción general del pastel: </label><br>
+    <input type="text" id="pastel" name="pastel" maxlength="200"><br><br>
+
+    <label for="fecha">Selecciona la fecha: </label><br>
+    <input type="date" id="fecha1" name="fecha1"><br><br>
+
+    <h3>Sabor del pastel: </h3><br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Relleno de mermelada</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Con cubierta de chocolate</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Pastel de limón</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Pastel de Fresa</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Tres leches</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br><br>
+
+    <h3>Adornos para el pastel: </h3><br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Figura de decoración (Personalizable)</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Paquete de velas (10 piezas)</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Vela de chispas especial</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Vela en forma de número</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br>
+    <input type="checkbox" id="sabor" name="sabor" value="sabor">
+    <label for="sabor">Flor pequeña (Comestible)</label>
+    <input type="number" id="sabor" name="sabor" value="sabor" minlength="0">
+    <br><br>
+    <input type="reset" onclick="alert('Contenido borrado');">
+    <input type="submit" onclick="alert('Se ha registrado su pedido!');">
+    <br>
+
+    </section>
+</form>
+
+
+
+    <div align="center">
+        <a href="./Interfaz_empleado.html">
+        <button class="btn" > Empleados </button>
+        </a>
+        
+        <a href="./Página_principal.html">
+        <button class="btn" > Página principal </button>
+        </a>
+        </div>
+</body>
+</html>

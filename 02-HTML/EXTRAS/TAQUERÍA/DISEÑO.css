@@ -1,0 +1,25 @@
+/* 
+<p>         Etiquetas normales
+
+#titulo     Para identificadores
+
+.izquierda  Clases (class="izquierda")
+*/
+body {
+    background: #a4dfa9;
+    
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: left;
+    text-decoration:solid;
+}
+
+p{
+    color: #000000;
+}
+
+h3{
+    background-color: aliceblue;
+}

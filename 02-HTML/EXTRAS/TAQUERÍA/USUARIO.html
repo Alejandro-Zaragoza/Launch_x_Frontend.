@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./DISEÑO.css">
+    <title>Datos del Usuario</title>
+</head>
+<body>
+
+
+    <h3>Ingresa tus datos: </h3>
+    
+    <label for="correo">Correo electrónico: </label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="tel">Número de teléfono: </label><br>
+    <input type="tel" id="tel" name="tel" maxlength="10" minlength="1"><br><br>
+
+    <label for="contraseña">Contraseña: </label><br>
+    <input type="password" id="contraseña" name="contraseña"><br><br>
+
+    <label for="numero">Número: </label><br>
+    <input type="number" id="numero" name="numero"><br><br>
+
+    <label for="url">Entrada URL: </label><br>
+    <input type="url" id="url" name="url"><br><br>
+
+    <label for="color">Selecciona el color de tu feed: </label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <label for="fecha">Selecciona la fecha: </label><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+    <input type="week" id="fecha3" name="fecha3"><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+    <input type="month" id="fecha5" name="fecha5"><br><br>
+
+    <label for="archivo">Sube tu archivo: </label><br>
+    <input type="file" id="archivo" name="archivo" multiple><br><br>
+
+    <h3>Ingresa tu lenguaje favorito: </h3>
+    <input type="radio" id="html" name="fav">
+    <label for="html">HTML </label><br>
+    <input type="radio" id="css" name="fav">
+    <label for="css">CSS </label><br>
+    <input type="radio" id="java" name="fav">
+    <label for="java">JAVA </label><br><br>
+
+    <label for="volumen">Volumen [0-100]: </label><br>
+    <input type="range" id="volumen" name="volumen" min="0" max="100"><br>
+
+    <input type="reset">
+    <input type="submit">
+
+    <input type="button" id="button" name="button" value="button" onclick="alert('Gracias por ingresar tus datos para el registro!');">
+    
+    <br><br>
+    <a href="./TAQUERÍA.html">
+    <button>Regresar...</button>
+    </a>
+</body>
+</html>
