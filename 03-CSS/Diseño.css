@@ -1,0 +1,301 @@
+.logo{
+    color:#2a4ac8;
+    font-size: 35px;
+    display: inline-block;
+    margin-right: 350px;  
+    margin-left: 50px;
+}
+
+.Navegacion{
+    background-color:#e7e0e080;
+}
+
+.Interno_1{ 
+    display: inline;
+}
+
+.Interno_2{
+    display: inline-block; 
+    margin: 0px 25px 0px 25px;
+    color: #201f1f80;
+    font-size: large;
+}
+
+
+.btn{color: white;
+    background-color: #2a4ac8;
+    margin:0px 10px;
+    padding:0;
+    box-sizing: border-box;
+    width: 110px;
+    height: 40px;
+    border: 1px solid #008deb;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;}
+
+.titulo{
+    color: #1e3385;
+    font-size: 60px;
+    margin: 0px 20px 0px 20px;
+    font-weight: bolder;
+}
+.titulo_2{
+    color: #1e3385;
+    font-size: 40px;
+    margin: 0px 20px 0px 60px;
+    font-weight: bolder;
+}
+
+.texto{
+    color: #201f1f80;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.opcion{
+    color: #2a4ac8;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+.imagen{
+    width: 750px;
+    margin-left:500px;
+    position: absolute;
+}
+
+.imagen_2{
+    width: 670px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+}
+
+.Navegacion_2{
+    margin-left: 50px;
+}
+
+.datos{
+    color: #1e3385;
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 0px 20px 0px 20px;
+}
+
+.Interno_3{
+    display: inline-block; 
+    margin: 0px 70px 0px 70px;
+    color: #00000080;
+}
+
+.Interno_4{
+    display: inline-block; 
+    margin: 0px 50px 0px 70px;
+    color: #2a4ac8;
+    font-size: 20px;
+}
+
+.banner{
+    background-color: #fffffff1;
+    position: absolute;
+    padding: 10px;
+    border-radius: 6px;
+}
+.logo_vacunas{
+    width: 250px;
+    display: inline;
+    margin: 0px 25px 0px 25px;
+}
+
+.box{
+    display:inline-table;
+    margin: 0px 0px 0px 50px;
+    padding:0;
+    box-sizing: border-box;
+    width: 250px;
+    height: 280px;
+    border: 2px solid #b5b5b62f;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Navegacion_3{
+    margin-left: 600px;
+}
+
+.texto_recuadro{
+    color: #201f1f80;
+    font-size: 12px;
+    margin: 0px 20px 0px 10px;
+}
+
+.flecha{
+    width:  10px;
+    height: 10px;
+    align-items: right;
+}
+
+.btn_2{
+    margin:0px 10px 12px 60px;
+    padding:0;
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #b5b5b62f;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #1e3385;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;}
+
+    .btn_3{
+        margin:0px 10px 10px 60px;
+        padding:0;
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        border: 2px solid #b5b5b62f;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #1e3385;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;}
+
+.cuadrado{
+    background-color: #2a4ac8;
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.cuadrado_2{
+    background-color: #2a4ac8;
+    width: 600px;
+    height: 350px;
+    display: inline-block;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.imagen_3{
+    width: 670px;
+    height: 500px;
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+.box_2{
+    display:inline-table;
+    margin: 50px 60px 0px 30px;
+    padding:0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 170px;
+    border: 2px solid #b5b5b62f;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.box_3{
+    display:inline-table;
+    margin: 100px 60px 0px 30px;
+    padding:0;
+    box-sizing: border-box;
+    width: 210px;
+    height: 170px;
+    border: 2px solid #b5b5b62f;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn_4{
+    margin: 30px 10px 0px 20px;
+    padding:0;
+    box-sizing: border-box;
+    width: 160px;
+    height: 50px;
+    border: 2px solid #b5b5b62f;
+    background-color: #e3eff6be;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #1e3385;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;}
+
+.btn_5{
+    margin: 0px 10px 0px 20px;
+    padding:0;
+    box-sizing: border-box;
+    width: 60px;
+    height: 50px;
+    border: 2px solid #b5b5b62f;
+    background-color: #e3eff6be;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;}
+
+.datos_2{
+    color: #1e3385;
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 15px 0px 3px 10px;
+}
+
+.logos_llamada{
+    width: 30px;
+    height: 30px;
+}
+
+.recuadro_pie_uno{
+    display: inline-table;
+    margin-left: 50px;
+}
+
+.recuadro_pie_dos{
+    display: inline-table;
+    margin-left: 50px;
+}
+
+.texto_pie{
+    color: #201f1f80;
+    font-size: 16px;
+}
+
+.logo_pie{
+    color:#2a4ac8;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.opciones_pie{
+    display: inline-table;
+    margin-left: 480px;
+}
+
+.rights{
+    display: inline-block;
+    font-size: 16px;
+    color: #201f1f80;
+    margin-left: 50px;
+}
+
+.terms{
+    display: inline-block;
+    margin-left: 600px;
+    font-size: 16px;
+    color: #201f1f80;
+}
+
+.fondo{
+    background-color:#b8b8b865;
+    width: 1250px;
+}
